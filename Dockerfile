@@ -29,7 +29,7 @@ RUN	   adduser -D -h /opt/elasticsearch elasticsearch \
 	&& wget -q $LS_URL -O logstash.tar.gz \
 	&& wget -q  $K_URL -O kibana.tar.gz \
 	&& wget -q $GEOCITY_URL -O geocity.gz \
-	&& wget -q $GEOCITY_URL -O geocityv6.gz \
+	&& wget -q $GEOCITY6_URL -O geocityv6.gz \
 	&& tar -zxf elasticsearch.tar.gz --strip-components=1 -C /opt/elasticsearch \
 	&& tar -zxf logstash.tar.gz --strip-components=1 -C /opt/logstash \
 	&& tar -zxf kibana.tar.gz --strip-components=1 -C /opt/kibana \
