@@ -9,7 +9,7 @@ This is a small container at only 300Mb compressed, running a full functional EL
 * updated upstream grok patterns
 * yum.log input via filebeat
 * running on Alpine Linux with s6, small, clean and efficient
-* Maxmind geo data enabled
+* Maxmind geo data enabled for IPv4 & IPv6
 * Each process runs as own user
 
 ## Instructions
